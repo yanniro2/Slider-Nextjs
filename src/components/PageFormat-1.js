@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import React from "react";
-import Scrollbar from "../../components/scrollbar";
-import img from "../../Img/png/hair_structure.png";
+import Scrollbar from "./Scrollbar";
+import img from "../Img/png/hair_structure.png";
 import Image from "next/image";
 function page() {
   return (

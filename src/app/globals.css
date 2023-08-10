@@ -17,7 +17,7 @@
    }
 
    .h1 {
-    @apply text-[4rem] text-light-blue uppercase font-bold tracking-wide;
+    @apply text-[4rem] text-light-blue uppercase font-bold tracking-normal;
    }
 
    .h3 {
