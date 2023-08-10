@@ -29,6 +29,11 @@
    
    }
 
+   .h3-2 {
+    @apply text-[3.5rem] flex flex-col;
+   }
+
+
    .bg-blue-l {
     background: linear-gradient(180deg, rgba(119, 197, 213, 0.2) 0%, rgba(119, 197, 213, 0) 100%);
 

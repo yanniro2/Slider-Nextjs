@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import React from "react";
 import Image from "next/image";
 import img from "../../Img/png/slider_img2.png";
+
 import Scrollbar from "../../components/scrollbar";
 
 function page() {

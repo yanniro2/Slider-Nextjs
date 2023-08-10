@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import React from "react";
 import Image from "next/image";
-import img from "../../Img/png/slider_img3.png";
+import img from "../../Img/png/slider_img4.png";
 
 import Scrollbar from "../../components/scrollbar";
 
@@ -20,10 +20,10 @@ function page() {
             className="border-[1rem] absolute top-0  -translate-y-1/2 border-white rounded scale-90"
           />
           <h3 className="h3-2">
-            The whole clinic is lead by
-            <span className="font-bold">Mr Michael May</span> (FRCS), all of our
-            surgeons are registered with the GMC and are members of the Royal
-            College of surgeons.
+            Some of our surgeons are members of the International Society of
+            Hair Restoration Surgeons and some are member of the European
+            Society, and some are members of the British Association Hair
+            Restoration surgeons.
           </h3>
         </div>
       </section>
