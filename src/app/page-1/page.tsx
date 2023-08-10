@@ -6,29 +6,27 @@ import Scrollbar from "../../components/scrollbar";
 
 function page() {
   return (
-    <div className="slider">
+    <div className="screen">
       <Navbar />
-      <Image
-        src={img}
-        className=" drop-shadow-xl  rounded-full border-[5px] border-gray-300 shadow-lg object-cover"
-      />
+      <section className="section-1">
+        <Image
+          src={img}
+          className="absolute top-0 -translate-y-1/2 rounded-full object-cover border-[1rem] drop-shadow shadow z-10 w-[420px] h-[420px]"
+        />
 
-      <div className="w-full bg-blue-950 flex items-center p-5 justify-center rounded text-white flex-col">
-        <h1 className="h1">How Wimpole Clinic Work</h1>
-        <h2 className="h2">
-          Your surgery is carried out by a team of surgeons, doctors, and highly
-          skilled technicians.
-        </h2>
-
-        <div className="flex flex-col items-center gap-1 p-3 text-[1.2rem] capitalize text-gray-400">
-          <p> The whole clinic is lead by</p>
-          <div>
-            <span className=" font-semibold text-gray-300">Mr Michael May</span>{" "}
-            (FRCS), all of our surgeons are registered with the GMC and are
-            members of the Royal College of surgeons.
-          </div>
+        <div className="w-full flex flex-col h-full justify-center gap-10 items-center">
+          <h1 className="h1">How Wimpole Clinic Work</h1>
+          <h3 className="h3">
+            The Whole Clinic Is Lead By
+            <div>
+              <span className=" font-bold">Mr Michael May</span> (FRCS), All Of
+              Our Surgeons Are Registered With The GMC And Are Members Of The
+              Royal College Of Surgeons.
+            </div>
+          </h3>
         </div>
-      </div>
+      </section>
+
       <Scrollbar />
     </div>
   );

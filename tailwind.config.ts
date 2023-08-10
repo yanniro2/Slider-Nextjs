@@ -37,11 +37,16 @@ const config: Config = {
         xls: "24px", // Extra-large screens
       },
       colors: {
-        primary: "#007bff", // Example primary color
+        primary: "#007bff",
+        blue: "#22577a",
+        "light-blue": "#77cdd5", // Example primary color
         secondary: "#6c757d",
         back: "#000000",
         white: "#ffffff", // Example secondary color
         // Add more custom colors here
+      },
+      gradientColorStopPositions: {
+        20: "20%",
       },
     },
   },

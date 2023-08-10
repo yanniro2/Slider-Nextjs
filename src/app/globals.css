@@ -4,19 +4,35 @@
 @tailwind utilities;
 
 @layer components {
-    .h1 {
-        @apply  text-[2rem] font-bold uppercase font-serif  tracking-wider leading-tight;
-    }
+   .screen {
+    @apply w-screen h-screen flex flex-col justify-between items-center font-serif text-center;
+   }
 
-    .h2 {
-        @apply text-[1.5rem] font-sans text-center pt-5 leading-none font-medium text-gray-300 tracking-wide;
-    }
+   .section-1 {
+    @apply w-full h-3/4 flex flex-col justify-center items-center bg-blue relative;
+   }
 
-    .p1 {
-        @apply text-[1.2rem] font-serif text-center pt-5 leading-none font-normal text-gray-300 tracking-wide;
-    }
+   .section-2 {
+    @apply bg-white  w-full h-full text-[3rem] flex items-center justify-between flex-col;
+   }
 
-    .slider {
-        @apply w-screen h-screen flex flex-col justify-between items-center p-5 z-0 pb-[1rem];
-    }
+   .h1 {
+    @apply text-[4rem] text-light-blue uppercase font-bold tracking-wide;
+   }
+
+   .h3 {
+    @apply text-[4rem] text-white  flex flex-col w-[2/5];
+   }
+
+   .h3-1 {
+     @apply text-[4rem] text-black font-sans p-[2rem] font-medium;
+   
+   }
+
+   .bg-blue-l {
+    background: linear-gradient(180deg, rgba(119, 197, 213, 0.2) 0%, rgba(119, 197, 213, 0) 100%);
+
+   }
 }
+
+
