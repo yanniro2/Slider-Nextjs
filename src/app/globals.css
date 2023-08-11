@@ -38,6 +38,14 @@
     background: linear-gradient(180deg, rgba(119, 197, 213, 0.2) 0%, rgba(119, 197, 213, 0) 100%);
 
    }
+
+   .bold {
+    @apply font-bold;
+   }
+
+   .orange {
+    @apply bg-[orange];
+   }
 }
 
 
