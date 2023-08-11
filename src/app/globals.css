@@ -33,8 +33,17 @@
     @apply text-[3.5rem] flex flex-col;
    }
 
+   .h2-1 {
+    @apply text-[4rem] text-blue  font-semibold tracking-normal;
+   }
+
 
    .bg-blue-l {
+    background: linear-gradient(180deg, rgba(119, 197, 213, 0.2) 0%, rgba(119, 197, 213, 0) 100%);
+
+   }
+
+   .bg-blue-2 {
     background: linear-gradient(180deg, rgba(119, 197, 213, 0.2) 0%, rgba(119, 197, 213, 0) 100%);
 
    }

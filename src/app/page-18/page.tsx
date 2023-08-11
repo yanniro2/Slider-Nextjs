@@ -4,7 +4,6 @@ import PageFormat from "../../components/PageFormat/Format_4";
 function page() {
   const title = "What would I look like immediately post surgery";
   const scale = "scale-90";
-
   return <PageFormat img={img} title={title} scale={scale} />;
 }
 
