@@ -1,18 +1,18 @@
 import Navbar from "@/components/Navbar";
 import React from "react";
 import Scrollbar from "../../components/scrollbar";
-import img_1 from "../../Img/png/type/curly.png";
-import img_2 from "../../Img/png/type/straight.png";
-import img_3 from "../../Img/png/type/wavy.png";
+import img_1 from "../../Img/png/hair_wash1.png";
+import img_2 from "../../Img/png/hair_wash2.png";
+import img_3 from "../../Img/png/hair_wash3.png";
 import Image from "next/image";
 import PageFormat from "../../components/PageFormat/Format_7";
 function page() {
   const title_1 = "Am I suitable <br/> for a hair transplant";
-  const title_2 = "Structure of the Hair";
-  const scale = "scale-100";
-  const text_1 = "Straight";
-  const text_2 = "Wavy";
-  const text_3 = "Curly";
+  const title_2 = "";
+  const scale = "w-[20rem] h-[20rem] object-cover rounded";
+  const text_1 = "FIRST <br/> HAIR WASH";
+  const text_2 = "THIRD <br/> HAIR WASH";
+  const text_3 = "EIGHTH <br/> HAIR WASH";
 
   return (
     <PageFormat
