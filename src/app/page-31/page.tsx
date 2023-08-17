@@ -4,15 +4,16 @@ import img_2 from "../../Img/png/six_month_hair.png";
 import img_3 from "../../Img/png/nine_month_hair.png";
 import PageFormat from "../../components/PageFormat/Format_7";
 function page() {
-  const title_1 = "Hair works in <br/> three month cycles";
+  const title_1 = "Hair works in three month cycles";
   const title_2 = "";
   const scale = "w-1/2";
   const text_1 = "3 MONTHS";
   const text_2 = "6 MONTHS";
-  const text_3 = "9 MONTHS <br/> TO A YEAR";
+  const text_3 = "9 MONTHS TO A YEAR";
   const sub_1 = "The first";
   const sub_2 = "Post Surgery";
   const sub_3 = "Post Surgery";
+  const level = "w-[93%]";
 
   return (
     <PageFormat
@@ -28,6 +29,7 @@ function page() {
       sub_1={sub_1}
       sub_2={sub_2}
       sub_3={sub_3}
+      level={level}
     />
   );
 }

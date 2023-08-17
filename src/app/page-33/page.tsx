@@ -5,6 +5,7 @@ import Image from "next/image";
 import svg from "../../Img/svg/hairSvg.svg";
 
 function page() {
+  const level = "w-[99%]";
   return (
     <div className="screen ">
       <Navbar />
@@ -45,7 +46,7 @@ function page() {
         </div>
       </section>
 
-      <Scrollbar />
+      <Scrollbar level={level} />
     </div>
   );
 }

@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import React from "react";
 import Scrollbar from "../../components/scrollbar";
 import Image from "next/image";
-function Format({ title, head, img }) {
+function Format({ title, head, img, level }) {
   return (
     <div className="screen bg-white ">
       <Navbar />
@@ -12,11 +12,11 @@ function Format({ title, head, img }) {
         </h1>
         <div className="flex flex-col pt-[1rem] py-10 px-5 gap-[1rem] justify-evenly h-full">
           <h2 className="h1">{head}</h2>
-          <Image src={img} />
+          <Image src={img} alt="img" />
         </div>
       </section>
 
-      <Scrollbar />
+      <Scrollbar level={level} />
     </div>
   );
 }

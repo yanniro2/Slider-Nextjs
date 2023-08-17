@@ -9,8 +9,16 @@ function page() {
   const title = "How Wimpole Clinic Works";
   const scale = "";
   const cls = "h3-2";
+  const level = "w-[15%]";
   return (
-    <PageFormat img={img} title={title} decs={decs} scale={scale} cls={cls} />
+    <PageFormat
+      img={img}
+      title={title}
+      decs={decs}
+      scale={scale}
+      cls={cls}
+      level={level}
+    />
   );
 }
 

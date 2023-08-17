@@ -12,8 +12,16 @@ function page() {
   const title = " What should I think about";
   const scale = "scale-150";
   const cls = "h3-2 pt-[6rem]";
+  const level = "w-[36%]";
   return (
-    <PageFormat img={img} title={title} decs={decs} scale={scale} cls={cls} />
+    <PageFormat
+      img={img}
+      title={title}
+      decs={decs}
+      scale={scale}
+      cls={cls}
+      level={level}
+    />
   );
 }
 

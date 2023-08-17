@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Scrollbar from "../../components/scrollbar";
 
-function Format({ title, img, decs, scale, cls }) {
+function Format({ title, img, decs, scale, cls, level }) {
   return (
     <div className="screen ">
       <Navbar />
@@ -14,12 +14,13 @@ function Format({ title, img, decs, scale, cls }) {
           <Image
             src={img}
             className={`border-[1rem] absolute top-0  -translate-y-1/2 border-white rounded ${scale}`}
+            alt="img"
           />
-          <h3 className={`${cls}`} dangerouslySetInnerHTML={{ __html: decs }} />
+          <h3 className={`${cls}`}>{decs}</h3>
         </div>
       </section>
 
-      <Scrollbar />
+      <Scrollbar level={level} />
     </div>
   );
 }

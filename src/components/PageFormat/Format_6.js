@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import React from "react";
 import Scrollbar from "../../components/scrollbar";
 import Image from "next/image";
-function Format({ title_1, title_2, head, img, scale }) {
+function Format({ title_1, title_2, head, img, scale, level }) {
   return (
     <div className="screen  bg-blue-2 ">
       <Navbar />
@@ -10,14 +10,11 @@ function Format({ title_1, title_2, head, img, scale }) {
         <h1 className="h2-1">{title_1}</h1>
         <h1 className="h2-1">{title_2}</h1>
 
-        <Image src={img} className={`${scale}`} />
-        <h2
-          className="h1 pb-[10rem]"
-          dangerouslySetInnerHTML={{ __html: head }}
-        />
+        <Image src={img} className={`${scale}`} alt="img" />
+        <h2 className="h1 pb-[10rem]">{head}</h2>
       </section>
 
-      <Scrollbar />
+      <Scrollbar level={level} />
     </div>
   );
 }

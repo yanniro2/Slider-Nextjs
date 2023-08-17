@@ -1,7 +1,6 @@
 import Navbar from "@/components/Navbar";
 import React from "react";
 
-
 import Scrollbar from "../../components/scrollbar";
 import SubSection from "../../components/SubSection";
 import { BiBrain, BiSearch, BiCalendar } from "react-icons/bi";
@@ -18,6 +17,7 @@ function page() {
     },
     // Add more data items
   ];
+  const level = "w-[18%]";
   return (
     <div className="screen ">
       <Navbar />
@@ -32,7 +32,7 @@ function page() {
         </div>
       </section>
 
-      <Scrollbar />
+      <Scrollbar level={level} />
     </div>
   );
 }

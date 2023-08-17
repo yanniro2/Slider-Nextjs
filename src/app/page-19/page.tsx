@@ -6,6 +6,7 @@ function page() {
   const title_2 = "Hair Growth";
   const head = "FUT";
   const scale = "scale-125";
+  const level = "w-[57%]";
 
   return (
     <PageFormat
@@ -14,6 +15,7 @@ function page() {
       head={head}
       title_2={title_2}
       scale={scale}
+      level={level}
     />
   );
 }

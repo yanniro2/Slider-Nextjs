@@ -8,8 +8,16 @@ function page() {
   const title = " Taking the follicles";
   const scale = "scale-90";
   const cls = "h3-2 pt-[6rem]";
+  const level = "w-[48%]";
   return (
-    <PageFormat img={img} title={title} decs={decs} scale={scale} cls={cls} />
+    <PageFormat
+      img={img}
+      title={title}
+      decs={decs}
+      scale={scale}
+      cls={cls}
+      level={level}
+    />
   );
 }
 

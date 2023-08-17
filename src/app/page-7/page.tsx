@@ -16,6 +16,7 @@ function page() {
     { id: 10, description: "Medications Associated With Hair Loss" },
     // Add more data items
   ];
+  const level = "w-[21%]";
   return (
     <div className="screen bg-white ">
       <Navbar />
@@ -30,7 +31,7 @@ function page() {
         </div>
       </section>
 
-      <Scrollbar />
+      <Scrollbar level={level} />
     </div>
   );
 }

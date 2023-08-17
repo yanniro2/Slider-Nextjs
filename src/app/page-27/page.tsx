@@ -8,7 +8,8 @@ function page() {
     Areas of the scalp
   `;
   const title = "";
-  const cls = "h3-2";
+  const cls = "";
+  const level = "w-[81%]";
   return (
     <div className="screen ">
       <Navbar />
@@ -28,7 +29,7 @@ function page() {
         </div>
       </section>
 
-      <Scrollbar />
+      <Scrollbar level={level} />
     </div>
   );
 }

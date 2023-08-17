@@ -5,6 +5,7 @@ import Scrollbar from "@/components/scrollbar";
 import img from "../../Img/png/fut_treatment.png";
 import img_1 from "../../Img/png/workers.jpeg";
 function page() {
+  const level = "w-[96%]";
   return (
     <div className="screen bg-white ">
       <Navbar />
@@ -42,7 +43,7 @@ function page() {
           <div className="text-[70px] leading-[80px]">Derrick</div>
         </div>
       </section>
-      <Scrollbar />
+      <Scrollbar level={level} />
     </div>
   );
 }

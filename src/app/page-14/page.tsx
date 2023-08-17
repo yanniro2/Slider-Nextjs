@@ -10,8 +10,16 @@ function page() {
   const title = " Methods of extraction";
   const scale = "scale-100";
   const cls = "h3-2 pt-[6rem]";
+  const level = "w-[42%]";
   return (
-    <PageFormat img={img} title={title} decs={decs} scale={scale} cls={cls} />
+    <PageFormat
+      img={img}
+      title={title}
+      decs={decs}
+      scale={scale}
+      cls={cls}
+      level={level}
+    />
   );
 }
 

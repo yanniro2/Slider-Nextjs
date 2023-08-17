@@ -8,8 +8,16 @@ function page() {
   const title = " Designing a hair transplant";
   const scale = "scale-150";
   const cls = "h3-2 pt-[6rem]";
+  const level = "w-[45%]";
   return (
-    <PageFormat img={img} title={title} decs={decs} scale={scale} cls={cls} />
+    <PageFormat
+      img={img}
+      title={title}
+      decs={decs}
+      scale={scale}
+      cls={cls}
+      level={level}
+    />
   );
 }
 
